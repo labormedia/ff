@@ -14,7 +14,7 @@ repository = "https://github.com/zkcrypto/ff"
 edition = "2021"
 
 [dependencies]
-bitvec = { git="https://github.com/labormedia/ferrilab.git",version = "1", default-features = false, features=["loom"], optional = true }
+bitvec = { git="https://github.com/labormedia/ferrilab.git",version = "1", branch="no_std",default-features = false, features=["loom"], optional = true }
 byteorder = { version = "1", default-features = false, optional = true }
 ff_derive = { version = "0.13", path = "ff_derive", optional = true }
 rand_core = { version = "0.6", default-features = false }
