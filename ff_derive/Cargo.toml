@@ -21,7 +21,7 @@ proc-macro = true
 
 [dependencies]
 addchain = {version="0.2", git="https://github.com/labormedia/addchain.git", default-features=false}
-num-bigint = "0.3"
+num-bigint = {version="0.3", default-features=false}
 num-traits = { version = "0.2", default-features=false }
 num-integer = "0.1"
 proc-macro2 = "1"
