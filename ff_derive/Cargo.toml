@@ -22,7 +22,7 @@ proc-macro = true
 [dependencies]
 addchain = "0.2"
 num-bigint = "0.3"
-num-traits = "0.2"
+num-traits = { version = "0.2", default-features=false }
 num-integer = "0.1"
 proc-macro2 = "1"
 quote = "1"
